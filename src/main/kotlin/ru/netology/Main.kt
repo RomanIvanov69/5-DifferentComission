@@ -40,7 +40,7 @@ fun commissionVkPay(transferCount: Int, previousMoneyTransfers: Int): String {
     val maxLimitMonthVKPAY = 40000 // максим. лимит для переводов за месяц для карт VkPay
     if (previousMoneyTransfers >= maxLimitMonthVKPAY) return "Месячный лимит превышен"
     else if (transferCount >= maxLimitOneTimeVKPAY) return "Слишком большая сумма"
-    else return "Комиссия О рублей"
+    else return "нет комиссии"
 }
 
 fun commissionMastercardMaestro(transferCount: Int, previousMoneyTransfers: Int): String {
