@@ -8,3 +8,5 @@
 
 
 ![](vk-commission.png)
+Покрытие 89%:
+![](Coverage.png)
