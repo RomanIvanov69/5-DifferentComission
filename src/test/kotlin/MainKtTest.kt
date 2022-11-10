@@ -16,7 +16,7 @@ class MainKtTest {
             transferCount = transferCount,
             previousMoneyTransfers = previousMoneyTransfers
         )
-        assertEquals("750 рублей", actual = result)
+        assertEquals("7500 рублей", actual = result)
     }
 
     @Test
